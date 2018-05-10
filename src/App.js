@@ -17,6 +17,7 @@ const AppContainer = styled.div`
   letter-spacing: 1px;
   font-feature-settings: "liga" 0;
   color: #262626;
+  overflow: ${props => props.landscape ? 'scroll' : 'hidden'};
 `;
 
 const AppContainerDesktop = styled.div`
