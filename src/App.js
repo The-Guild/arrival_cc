@@ -5,15 +5,13 @@ import StepList from './Components/StepList.js';
 import { ArrivalSteps } from './Data/ArrivalSteps.js';
 
 const AppContainer = styled.div`
-  width: 100vw;
-  height: calc(100vh - 75px);
-  min-height: calc(178vw - 75px);
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   display: grid;
   grid-template-columns: 100%;
-  border-bottom: 1px solid red;
   font-family: 'Cardo', serif;
   font-weight: 200;
   letter-spacing: 1px;

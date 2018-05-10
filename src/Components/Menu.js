@@ -15,17 +15,15 @@ const MenuHeader = styled.div`
   width: 100%;
   height: 100%;
   position: relative;
-  display: grid;
-  grid-template-columns: 100%;
+  display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
   background-color: #799293;
 `;
 
 const MenuHeaderLogo = styled.div`
   width: 70%
-  height: 100%;
-  display: grid;
+  height: 70%;
   position: relative;
   right: 4vw;
   background-image: url(https://static1.squarespace.com/static/57337691f8baf36eb1172a98/t/5a343681652dea7bc2cd1ae2/1525651173817/?format=1500w);
