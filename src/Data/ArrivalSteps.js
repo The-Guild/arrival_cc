@@ -67,7 +67,7 @@ export const ArrivalSteps =
       index: 2,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f3575d1ff0b185e1e2/1524192245479/GCC_Driving_Step1.png?format=750w',
       header: 'important!',
-      body: 'You must register your plate with us for parking ($20/night). Text us a photo of your license plate to <a href="tel:5126237480" target="_blank" style="text-decoration: none; color: #D6A94D;">512-623-7480</a>.'
+      body: 'You must register your plate with us for parking ($20/night). To register, text a photo of your license plate to <a href="tel:5126237480" target="_blank" style="text-decoration: none; color: #D6A94D;">512-623-7480</a>.'
     },
     {
       index: 3,

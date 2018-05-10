@@ -146,7 +146,12 @@ export default class Step extends Component {
           </StepHeaderText>
         </StepHeader>
         <Swipeable
-          style={{width: '100%', height: '100%', display: 'grid', justifyItems: 'center'}}
+          style={{
+            width: '100%',
+            height: '100%',
+            display: 'grid',
+            justifyItems: 'center'
+          }}
           onSwipedLeft={
             this.props.index < this.props.maxSteps ?
               () => this.props.nextStep()
