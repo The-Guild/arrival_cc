@@ -5,7 +5,7 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/lib/md';
 const StepContainer = styled.div`
   width: 100%;
   height: 100%;
-  display: grid;
+  display: ${props => props.active ? 'grid' : 'none'};
   grid-template-columns: 100%;
   grid-template-rows: 12% 45% 8% 29% 6%;
   justify-items: center;
@@ -55,7 +55,6 @@ const StepImage = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-color: blue;
 `;
 
 const StepBodyHeader = styled.div`
@@ -108,9 +107,9 @@ const StepBodyText = styled.div`
   grid-template-columns: 100%;
   padding: 0;
   margin: 0;
-  font-size: 4.25vw;
+  font-size: 4vw;
   font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #FFF;
 `;
 
@@ -131,31 +130,45 @@ const StepFooterLink = styled.a`
 export default class Step extends Component {
   render() {
     return (
-      <StepContainer>
+      <StepContainer active={this.props.active}>
         <StepHeader>
-          <StepHeaderLogo/>
+          <StepHeaderLogo
+            onClick={() => this.props.setArrivalType('')}
+          />
           <StepHeaderText>
             <StepHeaderTextMain>City Center</StepHeaderTextMain>
             <StepHeaderTextSub>421 W 3rd st, 78701</StepHeaderTextSub>
           </StepHeaderText>
         </StepHeader>
-        <StepImage/>
+        <StepImage src={this.props.image}/>
         <StepBodyHeader>
-          header text
+          {this.props.header}
         </StepBodyHeader>
         <StepBody>
           <StepBodyButtons>
-            <StepBodyButtonBack>
+            <StepBodyButtonBack
+              onClick={
+                this.props.index > 1 ?
+                  () => this.props.prevStep()
+                :
+                  () => this.props.setArrivalType('')
+              }
+            >
               <MdChevronLeft size={window.innerWidth *.06}/>
               <span>back</span>
             </StepBodyButtonBack>
-            <StepBodyButtonForward>
-              <span>next</span>
-              <MdChevronRight size={window.innerWidth *.06}/>
-            </StepBodyButtonForward>
+            {
+              this.props.index < this.props.maxSteps &&
+                <StepBodyButtonForward
+                  onClick={() => this.props.nextStep()}
+                >
+                  <span>next</span>
+                  <MdChevronRight size={window.innerWidth *.06}/>
+                </StepBodyButtonForward>
+            }
           </StepBodyButtons>
           <StepBodyText>
-            <p>This is the step text<br/>All three<br/>Lines of it</p>
+            <p dangerouslySetInnerHTML={{__html: this.props.body}}/>
           </StepBodyText>
         </StepBody>
         <StepFooter>

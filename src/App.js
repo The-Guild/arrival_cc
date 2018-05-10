@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Menu from './Components/Menu.js';
-import Step from './Components/Step.js';
+import StepList from './Components/StepList.js';
+import { ArrivalSteps } from './Data/ArrivalSteps.js';
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -17,10 +18,33 @@ const AppContainer = styled.div`
 `;
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      arrivalType: ''
+    }
+  }
+
+  setArrivalType(arrivalType) {
+    this.setState({
+      arrivalType: arrivalType
+    });
+  }
+
   render() {
     return (
       <AppContainer>
-        <Step/>
+        { this.state.arrivalType !== '' ?
+          <StepList
+            arrivalSteps={ArrivalSteps[this.state.arrivalType]}
+            setArrivalType={this.setArrivalType.bind(this)}
+          />
+        :
+          <Menu
+            setArrivalType={this.setArrivalType.bind(this)}
+          />
+        }
       </AppContainer>
     );
   }

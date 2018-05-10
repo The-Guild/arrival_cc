@@ -116,14 +116,18 @@ export default class Menu extends Component {
           <span>How are you arriving today?</span>
         </MenuBodyHeader>
         <MenuBody>
-          <MenuBodySquare>
+          <MenuBodySquare
+            onClick={() => this.props.setArrivalType('driving')}
+          >
             <MdDirectionsCar size={window.innerWidth * .12} color={'#D6A94D'}/>
             <MenuBodySquareText>
               Driving
               <br/>(need parking)
             </MenuBodySquareText>
           </MenuBodySquare>
-          <MenuBodySquare>
+          <MenuBodySquare
+            onClick={() => this.props.setArrivalType('walking')}
+          >
             <MdDirectionsWalk size={window.innerWidth *.12} color={'#D6A94D'}/>
             <MenuBodySquareText>
               Walking
