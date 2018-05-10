@@ -7,7 +7,7 @@ import { ArrivalSteps } from './Data/ArrivalSteps.js';
 const AppContainer = styled.div`
   width: 100vw;
   height: ${props => props.landscape ? '178vw' : '100%' };
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: grid;
@@ -17,7 +17,6 @@ const AppContainer = styled.div`
   letter-spacing: 1px;
   font-feature-settings: "liga" 0;
   color: #262626;
-  overflow: ${props => props.landscape ? 'scroll' : 'hidden'};
 `;
 
 const AppContainerDesktop = styled.div`
