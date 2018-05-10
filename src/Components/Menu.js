@@ -25,7 +25,7 @@ const MenuHeaderLogo = styled.div`
   width: 70%
   height: 100%;
   position: relative;
-  left: -4vw;
+  right: 4vw;
   background-image: url(https://static1.squarespace.com/static/57337691f8baf36eb1172a98/t/5a343681652dea7bc2cd1ae2/1525651173817/?format=1500w);
   background-repeat: no-repeat;
   background-size: contain;
@@ -82,8 +82,8 @@ const MenuBodySquare = styled.div`
 `;
 
 const MenuBodySquareText = styled.p`
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-size: 4.25vw;
 `;
 

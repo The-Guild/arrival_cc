@@ -8,7 +8,7 @@ const StepContainer = styled.div`
   height: 100%;
   display: ${props => props.active ? 'grid' : 'none'};
   grid-template-columns: 100%;
-  grid-template-rows: 12% 45% 8% 29% 6%;
+  grid-template-rows: 12% 50% 8% 24% 6%;
   justify-items: center;
 `;
 
@@ -41,7 +41,7 @@ const StepHeaderText = styled.div`
 `;
 
 const StepHeaderTextMain = styled.span`
-  font-size: 9vw;
+  font-size: 8.5vw;
 `;
 
 const StepHeaderTextSub = styled.span`
@@ -101,13 +101,16 @@ const StepBodyButtonForward = styled.div`
   color: #D6A94D;
 `;
 
-const StepBodyText = styled.div`
+const StepBodyTextContainer = styled.div`
   width: 90%;
   height: 100%;
   display: grid;
   grid-template-columns: 100%;
-  padding: 0;
-  margin: 0;
+`;
+
+const StepBodyText = styled.p`
+  margin: 0px;
+  padding: 0px;
   font-size: 4vw;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -184,9 +187,9 @@ export default class Step extends Component {
                 </StepBodyButtonForward>
             }
           </StepBodyButtons>
-          <StepBodyText>
-            <p dangerouslySetInnerHTML={{__html: this.props.body}}/>
-          </StepBodyText>
+          <StepBodyTextContainer>
+            <StepBodyText dangerouslySetInnerHTML={{__html: this.props.body}}/>
+          </StepBodyTextContainer>
         </StepBody>
         <StepFooter>
           <StepFooterLink href='tel:5126237480'>
