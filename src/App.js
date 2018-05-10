@@ -7,7 +7,7 @@ import { ArrivalSteps } from './Data/ArrivalSteps.js';
 const AppContainer = styled.div`
   width: 100vw;
   height: ${props => props.landscape ? '178vw' : '100%' };
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   display: grid;
