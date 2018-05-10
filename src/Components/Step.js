@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import Swipeable from 'react-swipeable';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/lib/md';
 
 const StepContainer = styled.div`
@@ -140,7 +141,23 @@ export default class Step extends Component {
             <StepHeaderTextSub>421 W 3rd st, 78701</StepHeaderTextSub>
           </StepHeaderText>
         </StepHeader>
-        <StepImage src={this.props.image}/>
+        <Swipeable
+          style={{width: '100%', height: '100%', display: 'grid', justifyItems: 'center'}}
+          onSwipedLeft={
+            this.props.index < this.props.maxSteps ?
+              () => this.props.nextStep()
+            :
+              () => {''}
+          }
+          onSwipedRight={
+            this.props.index > 1 ?
+              () => this.props.prevStep()
+            :
+              () => this.props.setArrivalType('')
+          }
+        >
+          <StepImage src={this.props.image}/>
+        </Swipeable>
         <StepBodyHeader>
           {this.props.header}
         </StepBodyHeader>
