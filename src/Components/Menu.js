@@ -97,6 +97,7 @@ const MenuFooter = styled.div`
 `;
 
 const MenuFooterLink = styled.a`
+  font-size: 4.5vw;
   text-decoration: none;
   color: inherit;
 `;

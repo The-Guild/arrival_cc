@@ -127,6 +127,7 @@ const StepFooter = styled.div`
 `;
 
 const StepFooterLink = styled.a`
+  font-size: 4.5vw;
   text-decoration: none;
   color: inherit;
 `;
