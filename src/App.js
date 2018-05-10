@@ -13,13 +13,14 @@ const AppContainer = styled.div`
   font-weight: 200;
   letter-spacing: 1px;
   font-feature-settings: "liga" 0;
+  color: #262626;
 `;
 
 class App extends Component {
   render() {
     return (
       <AppContainer>
-        <Menu/>
+        <Step/>
       </AppContainer>
     );
   }
