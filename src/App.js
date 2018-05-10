@@ -19,32 +19,60 @@ const AppContainer = styled.div`
   color: #262626;
 `;
 
+const AppContainerDesktop = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-color: #F7F7F7;
+  overflow: hidden;
+`;
+
+const ScaleDivParent = styled.div`
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: calc(50vh - 365px);
+`;
+
+const ScaleDiv = styled.div`
+  -moz-transform: scale(${props => 411 / props.width});
+  -webkit-transform: scale(${props => 411 / props.width});
+  transform: scale(${props => 411 / props.width});
+`;
+
 class App extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
+      dimensions: {
+        width: 0,
+        height: 0,
+      },
       landscape: false,
       arrivalType: ''
     };
-    this.setLandscape = this.setLandscape.bind(this);
+    this.setDimensions = this.setDimensions.bind(this);
   }
 
   componentDidMount() {
-    this.setLandscape();
-    window.addEventListener('resize', this.setLandscape);
-    window.addEventListener('orientationchange', this.setLandscape);
+    this.setDimensions();
+    window.addEventListener('resize', this.setDimensions);
+    window.addEventListener('orientationchange', this.setDimensions);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.setLandscape);
-    window.addEventListener('orientationchange', this.setLandscape);
+    window.removeEventListener('resize', this.setDimensions);
+    window.addEventListener('orientationchange', this.setDimensions);
   }
 
-  setLandscape() {
+  setDimensions() {
     let width = window.innerWidth;
     let height = window.innerHeight
     this.setState({
+      dimensions: {
+        width: width,
+        height: height
+      },
       landscape: width > height
     });
   }
@@ -56,20 +84,43 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <AppContainer landscape={this.state.landscape}>
-        { this.state.arrivalType !== '' ?
-          <StepList
-            arrivalSteps={ArrivalSteps[this.state.arrivalType]}
-            setArrivalType={this.setArrivalType.bind(this)}
-          />
-        :
-          <Menu
-            setArrivalType={this.setArrivalType.bind(this)}
-          />
-        }
-      </AppContainer>
-    );
+    if (this.state.dimensions.width <= 1024) {
+      return (
+        <AppContainer landscape={this.state.landscape}>
+          { this.state.arrivalType !== '' ?
+            <StepList
+              arrivalSteps={ArrivalSteps[this.state.arrivalType]}
+              setArrivalType={this.setArrivalType.bind(this)}
+            />
+          :
+            <Menu
+              setArrivalType={this.setArrivalType.bind(this)}
+            />
+          }
+        </AppContainer>
+      );
+    } else {
+      return (
+        <AppContainerDesktop>
+          <ScaleDivParent>
+            <ScaleDiv width={this.state.dimensions.width}>
+              <AppContainer landscape={true}>
+                { this.state.arrivalType !== '' ?
+                  <StepList
+                    arrivalSteps={ArrivalSteps[this.state.arrivalType]}
+                    setArrivalType={this.setArrivalType.bind(this)}
+                  />
+                :
+                  <Menu
+                    setArrivalType={this.setArrivalType.bind(this)}
+                  />
+                }
+              </AppContainer>
+            </ScaleDiv>
+          </ScaleDivParent>
+        </AppContainerDesktop>
+      );
+    }
   }
 }
 

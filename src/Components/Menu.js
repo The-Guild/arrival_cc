@@ -9,6 +9,7 @@ const MenuContainer = styled.div`
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 50% 10% 34% 6%;
+  background-color: #FFF;
 `;
 
 const MenuHeader = styled.div`

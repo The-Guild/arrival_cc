@@ -10,6 +10,7 @@ const StepContainer = styled.div`
   grid-template-columns: 100%;
   grid-template-rows: 12% 50% 8% 24% 6%;
   justify-items: center;
+  background-color: #FFF;
 `;
 
 const StepHeader = styled.div`
