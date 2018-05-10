@@ -5,6 +5,7 @@ import { MdDirectionsWalk, MdDirectionsCar } from 'react-icons/lib/md';
 const MenuContainer = styled.div`
   width: 100%;
   height: 100%;
+  position: relative;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 50% 10% 34% 6%;
