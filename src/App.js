@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import MenuContainer from './Components/Menu.js';
+import Menu from './Components/Menu.js';
+import Step from './Components/Step.js';
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -18,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <AppContainer>
-        <MenuContainer/>
+        <Step/>
       </AppContainer>
     );
   }
