@@ -5,7 +5,7 @@ export const ArrivalSteps =
       index: 1,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab517478a922d7af0562501/5ad95212f950b7675311aca2/1524191767183/GCC_Walking_Figure1.png?format=750w',
       header: 'check the map',
-      body: 'The walking entrance is located at:<br/><a href="http://maps.google.com/?q=421 W 3rd St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">421 W 3rd St 78701</a><br/>next to Saint Bernard Clothing Co.'
+      body: 'Entrance located at: <a href="http://maps.google.com/?q=421 W 3rd St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">421 W 3rd St</a><br/>It is next to Saint Bernard Clothing Co.<br/>Video instructions are available <a href="https://vimeo.com/228679690" target="_blank" style="text-decoration: none; color: #D6A94D;">here</a>.'
     },
     {
       index: 2,
@@ -61,7 +61,7 @@ export const ArrivalSteps =
       index: 1,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab517478a922d7af0562501/5ad95212f950b7675311aca2/1524191767183/GCC_Walking_Figure1.png?format=750w',
       header: 'check the map',
-      body: 'The parking garage entrance is located at:<br/><a href="http://maps.google.com/?q=213 San Antonio St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">213 San Antonio St 78701</a><br/>Look for the blue parking sign.'
+      body: 'Entrance located at: <a href="http://maps.google.com/?q=213 San Antonio St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">213 San Antonio St</a><br/>Look for the blue parking sign.<br/>Video instructions are available <a href="https://vimeo.com/228679412" target="_blank" style="text-decoration: none; color: #D6A94D;">here</a>.'
     },
     {
       index: 2,
