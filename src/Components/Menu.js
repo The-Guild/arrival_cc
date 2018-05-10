@@ -25,6 +25,7 @@ const MenuHeader = styled.div`
 const MenuHeaderLogo = styled.div`
   width: 70%
   height: 100%;
+  display: grid;
   position: relative;
   right: 4vw;
   background-image: url(https://static1.squarespace.com/static/57337691f8baf36eb1172a98/t/5a343681652dea7bc2cd1ae2/1525651173817/?format=1500w);

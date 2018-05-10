@@ -6,8 +6,11 @@ import { ArrivalSteps } from './Data/ArrivalSteps.js';
 
 const AppContainer = styled.div`
   width: 100vw;
-  height: calc(100vh - 78px);
-  min-height: calc(178vw - 78px);
+  height: calc(100vh - 75px);
+  min-height: calc(178vw - 75px);
+  position: absolute;
+  top: 0;
+  left: 0;
   display: grid;
   grid-template-columns: 100%;
   border-bottom: 1px solid red;
