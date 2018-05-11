@@ -30,6 +30,7 @@ const StepHeaderLogo = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
+  cursor: pointer;
 `;
 
 const StepHeaderText = styled.div`
