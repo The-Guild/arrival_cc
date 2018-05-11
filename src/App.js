@@ -22,7 +22,7 @@ const AppContainer = styled.div`
 const AppContainerDesktop = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: #F7F7F7;
+  background-color: #B5C1B7;
   overflow: hidden;
 `;
 
