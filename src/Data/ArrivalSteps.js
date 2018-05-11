@@ -67,7 +67,7 @@ export const ArrivalSteps =
       index: 2,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f3575d1ff0b185e1e2/1524192245479/GCC_Driving_Step1.png?format=750w',
       header: 'important!',
-      body: 'You must register your plate with us for parking. To register, text a photo of your license plate to <a href="tel:5126237480" target="_blank" style="text-decoration: none; color: #D6A94D;">512-623-7480</a>.'
+      body: 'You must register your plate with us for parking ($20/night). To register, text a photo of your license plate to <a href="tel:5126237480" target="_blank" style="text-decoration: none; color: #D6A94D;">512-623-7480</a>.'
     },
     {
       index: 3,
@@ -139,7 +139,7 @@ export const ArrivalSteps =
       index: 14,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f6758d46bb999b7695/1524192249162/GCC_Driving_Step9.png?format=750w',
       header: 'follow signs to room',
-      body: 'Arriving at your floor, follow the signage in the hall to your room. If you need help, a floor map is available by <a href="https://static1.squarespace.com/static/57337691f8baf36eb1172a98/t/5a7b5102e4966bd8be4845d4/1518031563515/CityCenter-01.png?format=1500w" target="_blank" style="text-decoration: none; color: #D6A94D;">clicking here</a>.'
+      body: 'Arriving at your floor, follow the signage in the hall to your room. If you need help, a floor map is available <a href="https://static1.squarespace.com/static/57337691f8baf36eb1172a98/t/5a7b5102e4966bd8be4845d4/1518031563515/CityCenter-01.png?format=1500w" target="_blank" style="text-decoration: none; color: #D6A94D;">here</a>.'
     },
     {
       index: 15,

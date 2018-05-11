@@ -94,6 +94,7 @@ const StepBodyButtonBack = styled.div`
   background-color: #F7F7F7;
   border-radius: 4.25vw;
   color: #262626;
+  cursor: pointer;
 `;
 
 const StepBodyButtonForward = styled.div`
@@ -105,6 +106,7 @@ const StepBodyButtonForward = styled.div`
   font-family: 'Roboto', sans-serif;
   background-color: #D6A94D;
   border-radius: 4.25vw;
+  cursor: pointer;
 `;
 
 const StepBodyTextContainer = styled.div`

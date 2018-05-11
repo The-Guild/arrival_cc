@@ -80,6 +80,7 @@ const MenuBodySquare = styled.div`
   border: .75vw solid #D6A94D;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
 `;
 
 const MenuBodySquareText = styled.p`
