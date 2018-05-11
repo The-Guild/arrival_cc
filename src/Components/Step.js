@@ -148,7 +148,7 @@ export default class Step extends Component {
           />
           <StepHeaderText>
             <StepHeaderTextMain>City Center</StepHeaderTextMain>
-            <StepHeaderTextSub>421 W 3rd st, 78701</StepHeaderTextSub>
+            <StepHeaderTextSub>421 W 3rd st 78701</StepHeaderTextSub>
           </StepHeaderText>
         </StepHeader>
         <Swipeable

@@ -111,7 +111,7 @@ export default class Menu extends Component {
           <MenuHeaderLogo/>
           <MenuHeaderText>
             <MenuHeaderTextMain>City Center</MenuHeaderTextMain>
-            <br/><MenuHeaderTextSub>421 W 3rd st, 78701</MenuHeaderTextSub>
+            <br/><MenuHeaderTextSub>421 W 3rd st 78701</MenuHeaderTextSub>
           </MenuHeaderText>
         </MenuHeader>
         <MenuBodyHeader>

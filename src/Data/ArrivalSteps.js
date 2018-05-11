@@ -5,7 +5,7 @@ export const ArrivalSteps =
       index: 1,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab517478a922d7af0562501/5ad95212f950b7675311aca2/1524191767183/GCC_Walking_Figure1.png?format=750w',
       header: 'check the map',
-      body: 'Entrance located at: <a href="http://maps.google.com/?q=421 W 3rd St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">421 W 3rd St</a><br/>It is next to Saint Bernard Clothing Co.<br/>Video instructions are available <a href="https://vimeo.com/228679690" target="_blank" style="text-decoration: none; color: #D6A94D;">here</a>.'
+      body: 'The walking entrance is located at:<br/><a href="http://maps.google.com/?q=421 W 3rd St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">421 W 3rd St 78701</a><br/>It is next to Saint Bernard Clothing Co.'
     },
     {
       index: 2,
@@ -35,7 +35,7 @@ export const ArrivalSteps =
       index: 6,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab517478a922d7af0562501/5ad95215575d1ff0b1859e40/1524191767730/GCC_Walking_Step5.png?format=750w',
       header: 'follow signs to room',
-      body: 'Arriving at your floor, follow the signage in the hall to your room. If you need help, a floor map is available by <a href="https://static1.squarespace.com/static/57337691f8baf36eb1172a98/t/5a7b5102e4966bd8be4845d4/1518031563515/CityCenter-01.png?format=1500w" target="_blank" style="text-decoration: none; color: #D6A94D;">clicking here</a>.'
+      body: 'Arriving at your floor, follow the signage in the hall to your room. If you need help, a floor map is available <a href="https://static1.squarespace.com/static/57337691f8baf36eb1172a98/t/5a7b5102e4966bd8be4845d4/1518031563515/CityCenter-01.png?format=1500w" target="_blank" style="text-decoration: none; color: #D6A94D;">here</a>.'
     },
     {
       index: 7,
@@ -61,19 +61,19 @@ export const ArrivalSteps =
       index: 1,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab517478a922d7af0562501/5ad95212f950b7675311aca2/1524191767183/GCC_Walking_Figure1.png?format=750w',
       header: 'check the map',
-      body: 'Entrance located at: <a href="http://maps.google.com/?q=213 San Antonio St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">213 San Antonio St</a><br/>Look for the blue parking sign.<br/>Video instructions are available <a href="https://vimeo.com/228679412" target="_blank" style="text-decoration: none; color: #D6A94D;">here</a>.'
+      body: 'The garage entrance is located at:<br/><a href="http://maps.google.com/?q=213 San Antonio St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">213 San Antonio St 78701</a><br/>Look for the blue parking sign.'
     },
     {
       index: 2,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f3575d1ff0b185e1e2/1524192245479/GCC_Driving_Step1.png?format=750w',
       header: 'important!',
-      body: 'You must register your plate with us for parking ($20/night). To register, text a photo of your license plate to <a href="tel:5126237480" target="_blank" style="text-decoration: none; color: #D6A94D;">512-623-7480</a>.'
+      body: 'You must register your plate with us for parking. To register, text a photo of your license plate to <a href="tel:5126237480" target="_blank" style="text-decoration: none; color: #D6A94D;">512-623-7480</a>.'
     },
     {
       index: 3,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f30e2e72dfb8a4c0fd/1524192247655/GCC_Driving_Step2.png?format=750w',
       header: 'enter the garage',
-      body: 'The parking garage entrance is located at:<br/><a href="http://maps.google.com/?q=213 San Antonio St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">213 San Antonio St 78701</a><br/>Drive in, and proceed to the gate.'
+      body: 'Again, entrance is located at:<br/><a href="http://maps.google.com/?q=213 San Antonio St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">213 San Antonio St</a><br/>Drive in, and proceed to the gate.'
     },
     {
       index: 4,
@@ -109,7 +109,7 @@ export const ArrivalSteps =
       index: 9,
       image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f503ce64b5840cb564/1524192248020/GCC_Driving_Step7.png?format=750w',
       header: '!important',
-      body: 'To reach your floor, you must first go to level 1, exit the elevator, enter the building access code and then head up.'
+      body: 'To reach your floor, you must first go to level 1, exit the elevator, enter the building access code, and then head up.'
     },
     {
       index: 10,
