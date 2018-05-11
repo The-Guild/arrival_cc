@@ -88,18 +88,23 @@ const StepBodyButtonBack = styled.div`
   display: flex;
   align-items: center;
   justify-items: center;
+  padding-right: 2.5vw;
   font-size: 4.25vw;
   font-family: 'Roboto', sans-serif;
-  color: #F7F7F7;
+  background-color: #F7F7F7;
+  border-radius: 4.25vw;
+  color: #262626;
 `;
 
 const StepBodyButtonForward = styled.div`
   display: flex;
   align-items: center;
   justify-items: center;
+  padding-left: 2.5vw;
   font-size: 4.25vw;
   font-family: 'Roboto', sans-serif;
-  color: #D6A94D;
+  background-color: #D6A94D;
+  border-radius: 4.25vw;
 `;
 
 const StepBodyTextContainer = styled.div`
