@@ -5,7 +5,7 @@ export default class StepList extends Component {
   constructor(props){
     super(props);
     this.state = {
-      step: 1
+      step: 0
     }
   }
 
@@ -37,15 +37,16 @@ export default class StepList extends Component {
   render() {
     return (
       <div>
-        {this.props.arrivalSteps.map((step) =>
+        {this.props.arrivalSteps.map((step, index) =>
           <Step
-            key={step.index}
+            key={index}
             {...step}
-            active={this.state.step === step.index ? true : false}
-            maxSteps={this.props.arrivalSteps.length}
+            index={index}
+            active={this.state.step === index ? true : false}
+            maxSteps={this.props.arrivalSteps.length - 1}
             setArrivalType={this.props.setArrivalType.bind(this)}
-            prevStep={step.index > 1 ? this.prevStep.bind(this) : null}
-            nextStep={step.index < this.props.arrivalSteps.length ? this.nextStep.bind(this) : null}
+            prevStep={index > 1 ? this.prevStep.bind(this) : null}
+            nextStep={index < this.props.arrivalSteps.length ? this.nextStep.bind(this) : null}
           />
         )}
       </div>
