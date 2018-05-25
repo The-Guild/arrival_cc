@@ -54,32 +54,32 @@ export const ArrivalSteps =
       body: 'The garage entrance is located at:<br/><a href="http://maps.google.com/?q=213 San Antonio St Austin, TX 78701" target="_blank" style="text-decoration: none; color: #D6A94D;">213 San Antonio St 78701</a><br/>'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f30e2e72dfb8a4c0fd/1524192247655/GCC_Driving_Step2.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798370a6ad6970042d45/1527282065436/GCC_Driving_Step1.jpg?format=750w',
       header: 'enter the garage',
       body: 'Pull into the garage entrace near the blue parking sign. Proceed to the gate.'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f3352f53638f597fa6/1524192246831/GCC_Driving_Step3.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b087984758d46a523fd6522/1527282057170/GCC_Driving_Step2.jpg?format=750w',
       header: 'take a ticket',
       body: 'There will be a ticket machine to your left. Press the button to get a ticket.'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b0721330e2e72045ea79f64/1527193931824/GCC_ArrivalDriving_Step3a_KEEP+copy.jpg?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b0879850e2e72c75240ee1b/1527282059621/GCC_Driving_Step2a.jpg?format=750w',
       header: 'important!',
       body: "Take your ticket with you when your leave your car. You'll keep it in your room until final departure."
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f4758d46bb999b75e9/1524192247715/GCC_Driving_Step4.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b087986758d46a523fd653b/1527282061449/GCC_Driving_Step3.jpg?format=750w',
       header: 'head to the 4th floor',
       body: 'Proceed past the gate to the right and follow signs to the 4th floor of the garage.'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f5aa4a99d7d3ae89ef/1524192247918/GCC_Driving_Step5.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798788251b3c141cfa4c/1527282060931/GCC_Driving_Step4.jpg?format=750w',
       header: 'park in an open spot',
       body: 'You can park in any open spot on the 4th floor (or above). Do not park in a reserved space (or your car may be towed).'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b07212f562fa7c96df901b3/1527193908463/GCC_ArrivalDriving_Step1_Register+copy.jpg?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b0879872b6a2827fa7e5450/1527282061587/GCC_Driving_Step5.jpg?format=750w',
       header: 'important!',
       body: 'You must register your car with us to park in the garage ($20/night). Text a photo of your license plate to <a href="tel:5126237480" target="_blank" style="text-decoration: none; color: #D6A94D;">512-623-7480</a>.'
     },
@@ -89,42 +89,42 @@ export const ArrivalSteps =
       body: 'Find the garage elevator entrance. At the callbox, enter the building access code that was texted to you. Enter the building.'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f5562fa7843a7035ff/1524192248714/GCC_Driving_Step8.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b0879896d2a730bf65c16d0/1527282066109/GCC_Driving_Step7.jpg?format=750w',
       header: 'important!',
-      body: "To reach your floor, you must first go down to floor 1 to activate the elevator for your floor."
+      body: "To reach your floor, you must first go down to floor 1 to re-enter the building access code."
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f62b6a28d5b2c53f11/1524192248937/GCC_Driving_Step8a.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798a1ae6cffc918131dd/1527282064667/GCC_Driving_Step7a.jpg?format=750w',
       header: 'head to floor 1',
-      body: 'Take the elevator down to floor 1 and exit.'
+      body: 'Take the elevator down to floor 1 and exit the elevator.'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f6aa4a99d7d3ae89f7/1524192248794/GCC_Driving_Step8b.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798b2b6a2827fa7e5491/1527282065576/GCC_Driving_Step7b.jpg?format=750w',
       header: 'enter building access code (again)',
-      body: "At the callbox, re-enter the building access code and hit the elevator up button."
+      body: "At the callbox next to the elevator, re-enter the building access code and hit the elevator up button."
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f6aa4a99d7d3ae89ff/1524192249265/GCC_Driving_Step8c.png?format=750w',
-      header: 'take the elevator',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798b88251b3c141cfa85/1527282065941/GCC_Driving_Step7c.jpg?format=750w',
+      header: 'take the elevator up',
       body: 'Take the elevator up to the floor where your room is located. Check the text message we sent you for your room floor and number.'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f6758d46bb999b7695/1524192249162/GCC_Driving_Step9.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798caa4a998f14198180/1527282069100/GCC_Driving_Step8.jpg?format=750w',
       header: 'follow signs to room',
       body: 'Follow the signage in the hall to your room. If you need help navigating, a floor map is available <a href="https://static1.squarespace.com/static/57337691f8baf36eb1172a98/t/5a7b5102e4966bd8be4845d4/1518031563515/CityCenter-01.png?format=1500w" target="_blank" style="text-decoration: none; color: #D6A94D;">here</a>.'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f7562fa7843a70360d/1524192249895/GCC_Driving_Step10.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798c0e2e72c75240ef5e/1527282066843/GCC_Driving_Step9.jpg?format=750w',
       header: 'enter room code',
       body: 'At your room, use your room access code to enter. Check the text message we sent you for your room code.'
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5ab521fb0e2e72bd835b2924/5ad953f72b6a28d5b2c53f1a/1524192250596/GCC_Driving_Step11.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798e575d1f6a6dd8d328/1527282069210/GCC_Driving_Step10.jpg?format=750w',
       header: 'find access fob',
       body: "You'll find an access fob and parking sticker on the kitchen counter. Use the fob during your stay to easily get in and around the building."
     },
     {
-      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b0721081ae6cf32e1c8961c/1527193879952/GCC_Driving_Step12.png?format=750w',
+      image: 'https://static1.squarespace.com/static/57337691f8baf36eb1172a98/5b071c8b70a6adbb0f835b29/5b08798e0e2e72c75240f079/1527282068214/GCC_Driving_Step11.jpg?format=750w',
       header: 'apply parking sticker',
       body: "Apply the parking sticker to your garage ticket. You'll use this to exit the garage on your final departure. Until then, your fob will get you in and out of the garage."
     },
